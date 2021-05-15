@@ -18,7 +18,7 @@ public class Main {
 		System.out.println(customer.getDateOfBirth().toString());
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		customerManager.save(new Customer(1, "MESUT", "EREN", LocalDate.of(1983, 9, 24), "26274524626"));
+		customerManager.save(new Customer(1, "MESUT", "EREN", LocalDate.of(1983, 9, 24), "26274524618"));
 		
 		
 		
