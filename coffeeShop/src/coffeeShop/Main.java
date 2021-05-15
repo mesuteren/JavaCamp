@@ -9,7 +9,7 @@ public class Main {
 		customer.setFirstName("Mesut");
 		customer.setLastName("Eren");
 		customer.setDateOfBirth(LocalDate.of(1983, 9, 24));
-		customer.setNationalityId("25274524618");
+		customer.setNationalityId("26274524628");
 		
 		
 		System.out.println(customer.getId());
